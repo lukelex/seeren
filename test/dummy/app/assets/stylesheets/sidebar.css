@@ -1,0 +1,41 @@
+#sidebar {
+  width: 300px;
+  float: right;
+}
+
+@media screen and (max-width: 980px) {
+
+  #sidebar {
+    width: 30%;
+  }
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+  #sidebar {
+    width: auto;
+    float: none;
+  }
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+  #sidebar {
+    display: none;
+  }
+
+}
+
+#sidebar {
+  background: #f0efef;
+}
+#sidebar {
+  margin-bottom: 5px;
+}
+#sidebar {
+  border: solid 1px #ccc;
+}

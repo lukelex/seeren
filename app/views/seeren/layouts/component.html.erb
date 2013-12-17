@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seeren • <%= @view_config.view %></title>
+
+  <style type="text/css">
+    #component-container {
+      width:800px;
+      height:600px;
+      margin:0 auto;
+      overflow:hidden;
+    }
+  </style>
+
+  <%= stylesheet_link_tag @view_config.css, media: "all" %>
+</head>
+<body>
+  <div id="component-container" style="<%= @view_config.contain_in %>">
+    <%= render @view_config.view %>
+  </div>
+
+  <%= javascript_include_tag @view_config.js %>
+</body>
+</html>

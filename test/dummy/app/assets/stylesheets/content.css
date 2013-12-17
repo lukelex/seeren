@@ -1,0 +1,30 @@
+#content {
+  width: 600px;
+  float: left;
+  background: #f8f8f8;
+  margin-bottom: 5px;
+  border: solid 1px #ccc;
+}
+
+@media screen and (max-width: 980px) {
+
+  #content {
+    width: 65%;
+  }
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+  #content {
+    width: auto;
+    float: none;
+  }
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+}

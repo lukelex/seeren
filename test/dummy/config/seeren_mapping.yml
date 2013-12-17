@@ -1,0 +1,19 @@
+header:
+  view: application/header
+  stylesheet: header
+  javascript: header
+
+sidebar:
+  view: application/sidebar
+  stylesheet: sidebar
+  javascript: sidebar
+
+footer:
+  view: application/footer
+  stylesheet: footer
+  javascript: footer
+
+content:
+  view: sample/content
+  stylesheet: content
+  javascript: content

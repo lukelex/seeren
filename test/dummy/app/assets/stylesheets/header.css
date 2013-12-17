@@ -1,0 +1,25 @@
+#header {
+  height: 180px;
+  border: solid 1px #ccc;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+  #content {
+    width: auto;
+    float: none;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #header {
+    height: auto;
+  }
+
+}
